@@ -26,6 +26,11 @@ header {
     background-color: rgb(223, 223, 243);
     }
 
+    h1 {
+        font-family:"Oswald", sans-serif;
+    }
+
+
 main {
     background-color: pink;
     flex: 1 0 auto;
