@@ -1,6 +1,9 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap')
 
+
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /*this is a wild card that enables me to style all elements in the css file. It will be used to remove all default settings, see below*/
 * {
@@ -10,7 +13,7 @@
 }
 
 body {
-    min-height:100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*this is for our generic project styles*/
@@ -74,10 +77,10 @@ nav {
     display: block;
 }
 
-/* #nav-toggle {
-    display: none; /* hide the checkbox - html input element 
+#nav-toggle {
+    display: none; /* hide the checkbox - html input element */ 
 }
-*/
+
 
 .nav-toggle-label {
     font-size: 2rem;
@@ -88,7 +91,30 @@ main {
     background-color: pink;
     flex: 1 0 auto;
     margin-top: 47px;
+}
 
 footer {
-    background-color: rgb(230, 247, 230);
+    background-color: lime;
     }
+
+
+
+    /* media query for screen with min width*/
+    @media screen and (min-width: 768px){
+nav {
+    display:block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+#menu {
+    display: flex;
+    }
+#menu li {
+        padding-left: 1rem;
+        }
+.nav-toggle-label {
+    display: none;
+}
+}
