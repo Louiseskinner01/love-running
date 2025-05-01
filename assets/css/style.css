@@ -1,0 +1,17 @@
+/*this is a wild card that enables me to style all elements in the css file. It will be used to remove all default settings, see below*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: blue;
+    }
+
+main {
+    background-color: pink;
+    }
+
+footer {
+    background-color: green;
+    }
