@@ -20,6 +20,13 @@ body {
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
 }
+h1, h2, h3 {
+    font-family:"Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 
 header {
     background-color: #ffffff;
@@ -38,12 +45,7 @@ header {
     color: inherit;
  }
 
-h1 {
-    font-family:"Oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 #menu {
     font-size: 110%;
@@ -119,6 +121,10 @@ main {
         font-size: 160%;
     }
 
+    #cover-text {
+        background-color: rgba (243, 109, 187, -7);
+        font-size: 130%;
+    }
     /* media query for screen with min width*/
     @media screen and (min-width: 768px){
 nav {
