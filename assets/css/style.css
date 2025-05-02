@@ -84,13 +84,18 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: black
+    color: black;
 }
 
 main {
-    background-color: pink;
     flex: 1 0 auto;
     margin-top: 79px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp");
 }
 
 #social-networks {
