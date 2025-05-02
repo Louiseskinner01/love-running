@@ -90,7 +90,7 @@ nav {
 main {
     background-color: pink;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 79px;
 }
 
 footer {
@@ -117,4 +117,10 @@ nav {
 .nav-toggle-label {
     display: none;
 }
+}
+
+#logo {
+    font-size: 280%;
+    line-height: 73px;
+    margin: 0 0.5rem;
 }
