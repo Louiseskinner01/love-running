@@ -125,10 +125,20 @@ i {
     }
 
 #cover-text {
-        background-color: rgba (243, 109, 187, -7);
+        background-color: rgba(249, 109, 187, .7);
         font-size: 130%;
         position: absolute;
+        bottom: 30px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
     }
+
+    #cover-text h2, #cover-text h3 {
+        color: #ffffff;
+    }
+
     /* media query for screen with min width*/
     @media screen and (min-width: 768px){
 nav {
@@ -147,6 +157,11 @@ nav {
 .nav-toggle-label {
     display: none;
 }
+#cover-text {
+    width: 300px;
+    right: 50px;
+}
+
 }
 
 
