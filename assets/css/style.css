@@ -93,14 +93,25 @@ main {
     margin-top: 79px;
 }
 
-footer {
-    background-color: lime;
-    }
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
 
     #logo {
         font-size: 280%;
         line-height: 73px;
         margin: 0 0.5rem;
+    }
+
+    i {
+        padding: 5%;
+        color: #3a3a3a;
+        font-size: 160%;
     }
 
     /* media query for screen with min width*/
@@ -122,6 +133,7 @@ nav {
     display: none;
 }
 }
+
 
 @media screen and (min-width: 992px){
     #menu a :hover {
